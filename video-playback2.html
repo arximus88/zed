@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hui</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="popup">
+      <div class="fixtop"> <h3>Congratulations!</h3>
+      </div>
+      <div class="vid">
+        <video id="video1" width="200" height="200"  muted onended="run()">
+          <source src="01-intro-breed.webm" type="video/webm">
+          <source src="01-intro-breed.mp4" type="video/mp4">
+        </video>
+        <video id="video2" width="200" height="200" autoplay muted loop>
+          <source src="02-middle-breed.webm" type="video/webm">
+          <source src="02-middle-breed.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="textpart">
+        Let's give Hot Clementine and The Accountant some alone time in the barn.
+        <br>
+        Their offspring will automatically appear in your stable when born. You can also check your Activity page to monitor the status of the birthing.
+      </div>
+      <div class="fixbot">
+        <button onclick="location.reload();">Confirm</button>
+      </div>
+
+    </div>
+    <script>
+    $( "#video2" ).hide();
+    setTimeout(function(){
+      document.getElementById("video1").play();
+    }, 100)
+    function run(){
+       $( "#video1" ).hide();
+        $( "#video2" ).show();
+        document.getElementById("video2").play();
+       };
+    </script>
+  </body>
+</html>
