@@ -87,7 +87,7 @@ border: 2px solid rgba(240,248,255,0.64);
 border: 2px solid rgba(240,248,255,0.64);
 }
 
-.btn.lg {
+button.lg {
     padding: 16px 32px;
     line-height: 24px;
     letter-spacing: 1px;
@@ -95,7 +95,7 @@ border: 2px solid rgba(240,248,255,0.64);
     border-radius: 12px;
 }
 
-.btn.md {
+button.md {
     padding: 12px 24px;
     line-height: 20px;
     letter-spacing: 0.08px;
@@ -103,7 +103,7 @@ border: 2px solid rgba(240,248,255,0.64);
     border-radius: 8px;
 }
 
-.btn.sm {
+button.sm {
     padding: 8px 16px;
     line-height: 16px;
     letter-spacing: 0.08px;
