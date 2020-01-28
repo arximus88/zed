@@ -64,7 +64,7 @@ button {
   text-align: center;
 }
 
-.primary-btn{
+.btn.primary{
   margin: auto;
   vertical-align: middle;
   font-family: "Montserrat", sans-serif;
@@ -76,18 +76,18 @@ button {
   border-radius: 12px;
 }
 
-primary-outline-btn{
+.btn.primary-outline{
 {
 
-.secondary{
+.btn.secondary{
 border: 2px solid rgba(240,248,255,0.64);
 }
 
-.secondary-outline-btn{
+.btn.secondary-outline{
 border: 2px solid rgba(240,248,255,0.64);
 }
 
-btn.lg {
+.btn.lg {
     padding: 16px 32px;
     line-height: 24px;
     letter-spacing: 1px;
@@ -95,7 +95,7 @@ btn.lg {
     border-radius: 12px;
 }
 
-btn.md {
+.btn.md {
     padding: 12px 24px;
     line-height: 20px;
     letter-spacing: 0.08px;
@@ -103,7 +103,7 @@ btn.md {
     border-radius: 8px;
 }
 
-btn.sm {
+.btn.sm {
     padding: 8px 16px;
     line-height: 16px;
     letter-spacing: 0.08px;
