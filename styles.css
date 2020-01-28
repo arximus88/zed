@@ -71,7 +71,7 @@ button {
   color: #F0F8FF;
   text-align: center;
   background-image: linear-gradient(135deg, #27B18A 0%, #395052 100%);
-  border: 2px solid #80AFA1;
+  border: 2px solid rgba(240,248,255,0.24);
   box-shadow: 0 2px 8px 0 rgba(39,177,138,0.37);
   border-radius: 12px;
 }
