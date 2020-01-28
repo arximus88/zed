@@ -63,7 +63,7 @@ button {
   padding: 10px 32px 10px 32px;
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
-  color: #FFFFFF;
+  color: #F0F8FF;
   letter-spacing: 0.4px;
   text-align: center;
   line-height: 16px;
@@ -71,4 +71,30 @@ button {
   border: 2px solid #80AFA1;
   box-shadow: 0 2px 4px 0 rgba(24,25,28,0.24);
   border-radius: 8px;
+}
+
+primary-btn{
+  margin: auto;
+  vertical-align: middle;
+  font-family: "Montserrat", sans-serif;
+  color: #F0F8FF;
+  text-align: center;
+  background-image: linear-gradient(135deg, #27B18A 0%, #395052 100%);
+  border: 2px solid #80AFA1;
+  box-shadow: 0 2px 8px 0 rgba(39,177,138,0.37);
+  border-radius: 12px;
+}
+
+primary-btn lg {
+    padding: 16px 32px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+primary-btn md {
+    padding: 12px 24px;
+    line-height: 20px;
+    letter-spacing: 0.08px;
+    font-size: 16px;
 }
