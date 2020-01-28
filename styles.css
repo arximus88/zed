@@ -60,17 +60,8 @@ p    {color: red;}
 button {
   margin: auto;
   vertical-align: middle;
-  padding: 10px 32px 10px 32px;
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
-  color: #F0F8FF;
-  letter-spacing: 0.4px;
   text-align: center;
-  line-height: 16px;
-  background-image: linear-gradient(135deg, #27B18A 0%, #395052 100%);
-  border: 2px solid #80AFA1;
-  box-shadow: 0 2px 4px 0 rgba(24,25,28,0.24);
-  border-radius: 8px;
 }
 
 primary-btn{
