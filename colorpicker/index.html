@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Racehorse Colorizer</title>
+	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<svg width="923px" height="820px" viewBox="0 0 923 820" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<div class="topper">	
+		<h1>Pick a Color</h1>
+		<input type="color" name="" oninput="document.querySelector('#horsepath').style.fill = this.value">
+	</div>
+<svg width="640px" height="480px" viewBox="0 0 923 820" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <defs>
         <path d="M795.263625,84.9795513 L797.600071,85.6041638 L801.296913,88.5560792 L801.296913,90.5849726 L800.120828,92.1326071 L795.263625,91.6528112 C793.873566,90.8396942 792.951885,90.201429 792.498582,89.7380157 C792.045278,89.2746023 791.649715,88.566245 791.311891,87.6129437 L792.498582,86.4039456 L795.263625,84.9795513 Z" id="path-1"></path>
         <filter x="-90.1%" y="-125.8%" width="280.3%" height="351.6%" filterUnits="objectBoundingBox" id="filter-2">
@@ -63,7 +68,7 @@
     </g>
 </svg>
 
-<input type="color" name="" oninput="document.querySelector('#horsepath').style.fill = this.value">
+
 
 </body>
 </html>
