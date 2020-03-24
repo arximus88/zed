@@ -6,8 +6,11 @@
 </head>
 <body>
 	<div class="topper">	
-		<h3>Pick a Color:</h3>
+		<h1>Racehorse Colorizer</h1>
+		<h3>Pick a color using picker:</h3>
 		<input type="color" name="" oninput="document.querySelector('#horsepath').style.fill = this.value" style="width: 200px;">
+		<h3>or input HEX (ex. #FF0033) and press enter:</h3>
+		<input type="text" id="entercolor" placeholder="Color value" onkeydown="document.querySelector('#horsepath').style.fill = this.value" style="z-index:0;">
 	</div>
 <svg width="640px" height="480px" viewBox="0 0 923 820" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <defs>
