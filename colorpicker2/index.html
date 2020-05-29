@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body {background-color: grey}
         .overlay {
             width: 948px;
             height: 842px;
             background-color: black;
             mix-blend-mode: overlay;
-            -webkit-mask-image: local('colour.svg');
-            mask-image: local('colour.svg');
+            -webkit-mask-image: url('colour.svg');
+            mask-image: url('colour.svg');
             -webkit-mask-position: center center;
             mask-position: center center;
             -webkit-mask-repeat: no-repeat;
