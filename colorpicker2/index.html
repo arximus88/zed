@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .overlay {
+            width: 948px;
+            height: 842px;
+            background-color: black;
+            mix-blend-mode: overlay;
+            -webkit-mask-image: local('colour.svg');
+            mask-image: local('colour.svg');
+            -webkit-mask-position: center center;
+            mask-position: center center;
+            -webkit-mask-repeat: no-repeat;
+            mask-repeat: no-repeat;
+            position: absolute;
+
+
+        }
+    </style>
+</head>
+<body style="background-color: black;">
+    <div class="overlay"> </div>
+    <img width="948" src="racehorse-pose-4.png" alt="">
+
+</body>
+</html>
