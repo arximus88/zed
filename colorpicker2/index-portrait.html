@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {background-color: grey}
+        .overlay {
+            width: 2048px;
+            height: 2048px;
+            background-color: black;
+            mix-blend-mode: overlay;
+            -webkit-mask-image: url('portrait-2-mask.svg');
+            mask-image: url('portrait-2-mask.svg');
+            -webkit-mask-position: center center;
+            mask-position: center center;
+            -webkit-mask-repeat: no-repeat;
+            mask-repeat: no-repeat;
+            position: absolute;
+
+
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay"> </div>
+    <img width="2048" src="portrait-2.png" alt="">
+
+</body>
+</html>
