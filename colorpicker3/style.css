@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+    color: white;
+    }
+
+.container {
+    /* width: 256px;
+    height: 256px; */
+    position: relative;
+}
+
+.texture {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.mask {
+    /* background-color: white;
+    mask-image: url('assets/horses_01.svg');
+    -webkit-mask-image: url('assets/horses_01.svg');*/
+    mix-blend-mode: overlay; 
+    mask-size: cover;
+    -webkit-mask-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
