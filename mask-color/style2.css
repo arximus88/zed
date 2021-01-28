@@ -41,8 +41,8 @@ body {
 .mask2 {
     opacity: 0.8;
     background-color: red;
-    mask-image: url('assets/assets/racehorse-full-color-512.webp');
-    -webkit-mask-image: url('assets/assets/racehorse-full-color-512.webp');
+    mask-image: url('assets/racehorse-full-color-512.webp');
+    -webkit-mask-image: url('assets/racehorse-full-color-512.webp');
     mix-blend-mode: overlay; 
     mask-size: cover;
     -webkit-mask-size: cover;
