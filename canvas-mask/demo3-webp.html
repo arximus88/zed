@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>DEMO HORSE</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>Canvas Racehorse</title>
 </head>
 <body onload="change_color()">
 
-<input type="color" id="color" name="color" value="#60ff10" onchange="conver_to_rgb()" style="width: 256px;">
+<input type="color" id="color" name="color" value="#cccccc" onchange="conver_to_rgb()" style="width: 256px;">
 
 <br>
 
 <canvas id="canvas"></canvas>
-<canvas id="canvas2"></canvas>
+<!-- <canvas id="canvas2"></canvas> -->
 
 <script type="text/javascript">
 
@@ -79,11 +80,11 @@
 
 	  		ctx.globalCompositeOperation="source-over";
 			ctx.drawImage(glow, pose.x || 0, pose.y || 0);
-
 			ctx.restore();
 		});
-		
+
 	}
+
 </script>
 
 </body>
