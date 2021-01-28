@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DEMO HORSE</title>
+</head>
+<body onload="change_color()">
+
+<input type="color" id="color" name="color" value="#60ff10" onchange="conver_to_rgb()">
+
+<br>
+
+<canvas id="canvas"></canvas>
+<canvas id="canvas2"></canvas>
+
+<script type="text/javascript">
+
+	const conver_to_rgb = () => {
+		const color = document.getElementById('color').value;
+
+		const rgbaCol = 'rgba(' + parseInt(color.slice(-6, -4), 16) + ',' + parseInt(color.slice(-4, -2), 16) + ',' + parseInt(color.slice(-2), 16) + ',' + 0.8 + ')';
+
+		
+		
+		change_color(rgbaCol);
+	};
+
+	const change_color = (color = "rgba(54, 138, 43, 0.8)") => {
+		const canvas = window.document.getElementById('canvas');
+
+		const ctx = canvas.getContext('2d');
+
+
+		let pose = new Image();
+		let shadow = new Image();
+		let glow = new Image();
+
+		const promises = [
+		    new Promise((resolve, reject) => {
+		        pose.src = "./pose.png";
+		        pose.onload = () => resolve({});
+		    }),
+		    new Promise((resolve, reject) => {
+		        glow.src = "./glow.png";
+		        glow.onload = () => resolve({});
+		    }),
+		    new Promise((resolve, reject) => {
+		        shadow.src = "./shadow.png";
+		        shadow.onload = () => resolve({});
+		    }),
+		];
+
+
+		Promise.all(promises).then(() => {
+
+		    console.log(pose);
+
+		    canvas.width = pose['width'];
+		    canvas.height = pose['height'];
+
+		    // POSE
+
+			ctx.save();
+			
+			ctx.drawImage(shadow, pose.x || 0, pose.y || 0);
+
+			ctx.drawImage(pose, pose.x || 0, pose.y || 0);
+			
+		    ctx.drawImage(pose, pose.x || 0, pose.y || 0);
+			ctx.globalCompositeOperation = "source-in";
+			
+			ctx.fillStyle = color;
+			
+		    ctx.globalCompositeOperation = "overlay";
+		    ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+
+	  		ctx.globalCompositeOperation="source-over";
+
+
+			ctx.drawImage(glow, pose.x || 0, pose.y || 0);
+			ctx.restore();
+		});
+		
+	}
+
+</script>
+
+</body>
+</html>
