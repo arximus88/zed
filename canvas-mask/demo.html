@@ -62,17 +62,13 @@
 			ctx.save();
 			
 			ctx.drawImage(shadow, pose.x || 0, pose.y || 0);
-
-			ctx.drawImage(pose, pose.x || 0, pose.y || 0);
 			
 		    ctx.drawImage(pose, pose.x || 0, pose.y || 0);
-			ctx.globalCompositeOperation = "source-in";
 			
 			ctx.fillStyle = color;
 			
 		    ctx.globalCompositeOperation = "overlay";
 		    ctx.fillRect(0, 0, canvas.width, canvas.height);
-
 
 	  		ctx.globalCompositeOperation="source-over";
 
