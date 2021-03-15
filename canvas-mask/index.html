@@ -1,19 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>DEMO HORSE</title>
+	<title>Racehorse on canvas</title>
 </head>
 <body onload="change_color()">
-
-<input type="color" id="color" name="color" value="#60ff10" onchange="conver_to_rgb()">
-
+<a href="downloader.html">Switch to Image Downloader</a>
+<p>Custom color picker:</p><input type="color" id="color" name="color" value="#60ff10" onchange="conver_to_rgb()">
+<br>
+<p>Color presets:</p>
+<button onclick="setcolor1()"> Absolute Zero </button>
+<button onclick="setcolor2()"> Alizarin Crimson </button>
+<button onclick="setcolor3()"> Midnight Black </button>
 <br>
 
 <canvas id="canvas"></canvas>
 <canvas id="canvas2"></canvas>
 
 <script type="text/javascript">
-
+	const setcolor1 = () => {
+		color="#0048BA"
+		const rgbaCol = 'rgba(' + parseInt(color.slice(-6, -4), 16) + ',' + parseInt(color.slice(-4, -2), 16) + ',' + parseInt(color.slice(-2), 16) + ',' + 0.8 + ')';
+		change_color(rgbaCol);	
+	}
+	const setcolor2 = () => {
+		color="#E32636"
+		const rgbaCol = 'rgba(' + parseInt(color.slice(-6, -4), 16) + ',' + parseInt(color.slice(-4, -2), 16) + ',' + parseInt(color.slice(-2), 16) + ',' + 0.8 + ')';
+		change_color(rgbaCol);	
+	}
+	const setcolor3 = () => {
+		color="#000000"
+		const rgbaCol = 'rgba(' + parseInt(color.slice(-6, -4), 16) + ',' + parseInt(color.slice(-4, -2), 16) + ',' + parseInt(color.slice(-2), 16) + ',' + 0.8 + ')';
+		change_color(rgbaCol);	
+	}
 	const conver_to_rgb = () => {
 		const color = document.getElementById('color').value;
 

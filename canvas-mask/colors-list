@@ -1,3 +1,9 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Racehorse on canvas</title>
+</head>
+<body>
 #0048BA
 #F0FFFF
 #72A0C1
@@ -100,3 +106,4 @@
 #D8BFD8
 #F5F5F5
 #FFC834
+<body>
