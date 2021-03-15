@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DEMO HORSE</title>
+</head>
+<body onload="download()">
+
+<input type="color" id="color" name="color" value="#60ff10" onchange="convert_to_rgb()">
+
+<br>
+
+<canvas id="canvas"></canvas>
+<canvas id="canvas2"></canvas>
+
+<script type="text/javascript">
+
+  const canvas = window.document.getElementById('canvas')
+
+  const ctx = canvas.getContext('2d')
+
+  let pose = new Image()
+  let shadow = new Image()
+  let glow = new Image()
+
+
+  const convert_to_rgb = () => {
+    const color = document.getElementById('color').value
+
+    const rgbaCol = 'rgba(' + parseInt(color.slice(-6, -4), 16) + ',' + parseInt(color.slice(-4, -2), 16) + ',' + parseInt(color.slice(-2), 16) + ',' + 0.8 + ')'
+
+    change_color(rgbaCol)
+  }
+
+  const download = () => {
+    const promises = [
+      new Promise((resolve, reject) => {
+        pose.src = './racehorse-full-color-1024.png'
+        pose.onload = () => resolve({})
+      }),
+      new Promise((resolve, reject) => {
+        glow.src = './racehorse-full-glow-1024.png'
+        glow.onload = () => resolve({})
+      }),
+      new Promise((resolve, reject) => {
+        shadow.src = './racehorse-full-shadow-darker-1024.png'
+        shadow.onload = () => resolve({})
+      }),
+    ]
+
+    Promise.all(promises).then(() => {
+
+      change_color()
+
+      get_all_colors()
+
+    })
+
+    function get_all_colors () {
+      const xmlHttp = new XMLHttpRequest()
+      xmlHttp.onreadystatechange = () => {
+        if (xmlHttp.readyState === 4 && xmlHttp.status === 200) {
+          let result = xmlHttp.responseText
+
+          result = result.split('\n')
+
+          cycle_colors(result, 250)
+
+        }
+      }
+      xmlHttp.open('GET', '/colors-list', true) // true for asynchronous
+      xmlHttp.send(null)
+    }
+
+    function cycle_colors (colors, delay = 150) {
+      let download = function(filename){
+        let link = document.createElement('a');
+        link.download = `${filename}.png`;
+        link.href = canvas.toDataURL()
+        link.click();
+      }
+
+        colors.forEach((item, index) => {
+          setTimeout(() => {
+            change_color(item);
+            download(item);
+          }, index * delay)
+        })
+    }
+
+  }
+
+  const change_color = (color = 'rgba(54, 138, 43, 0.8)') => {
+
+    canvas.width = pose['width']
+    canvas.height = pose['height']
+
+    // POSE
+
+    ctx.save()
+
+    ctx.drawImage(pose, pose.x || 0, pose.y || 0)
+
+    ctx.fillStyle = color
+
+    ctx.globalCompositeOperation = 'overlay'
+    ctx.fillRect(0, 0, canvas.width, canvas.height)
+
+    ctx.globalCompositeOperation = 'destination-in'
+    ctx.drawImage(pose, pose.x || 0, pose.y || 0)
+
+    ctx.globalCompositeOperation = 'destination-over'
+    ctx.drawImage(shadow, pose.x || 0, pose.y || 0)
+
+    ctx.globalCompositeOperation = 'source-over'
+    ctx.drawImage(glow, pose.x || 0, pose.y || 0)
+
+    ctx.restore()
+
+  }
+
+
+</script>
+
+</body>
+</html>
