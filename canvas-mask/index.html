@@ -4,8 +4,8 @@
 	<title>Racehorse on canvas</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body onload="change_color()">
-<a href="downloader.html">Switch to Image Downloader</a>
+<body onload="change_color()" style="color: aliceblue; background-color: #22262D;">
+<a href="downloader.html" style="color: aquamarine;">Switch to Image Downloader</a>
 <p>Custom color picker:</p><input type="color" id="color" name="color" value="#60ff10" onchange="conver_to_rgb()">
 <br>
 <p>Color presets:</p>
@@ -14,7 +14,7 @@
 <button onclick="setcolor3()"> Midnight Black </button>
 <br>
 
-<canvas id="canvas" style="scale: 0.7; margin: -10%;"></canvas>
+<canvas id="canvas"></canvas>
 
 <script type="text/javascript">
 	const setcolor1 = () => {
