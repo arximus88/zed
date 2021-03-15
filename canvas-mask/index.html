@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Racehorse on canvas</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body onload="change_color()">
 <a href="downloader.html">Switch to Image Downloader</a>
@@ -13,8 +14,7 @@
 <button onclick="setcolor3()"> Midnight Black </button>
 <br>
 
-<canvas id="canvas"></canvas>
-<canvas id="canvas2"></canvas>
+<canvas id="canvas" style="scale: 0.7; margin: -10%;"></canvas>
 
 <script type="text/javascript">
 	const setcolor1 = () => {
