@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="192px" height="250px" viewBox="0 0 192 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>main-head</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="82.8632982%" y1="65.9769874%" x2="28.3430586%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#9D9D9D" offset="0%"></stop>
+            <stop stop-color="#D5D3CE" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="50.0002437%" x2="100.001788%" y2="50.0002437%" id="linearGradient-2">
+            <stop stop-color="#868581" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="8.24076281%" y1="9.12509079%" x2="94.6686532%" y2="55.9042405%" id="linearGradient-3">
+            <stop stop-color="#878683" offset="0%"></stop>
+            <stop stop-color="#B4B3AD" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="21.2743137%" y1="10.6777567%" x2="78.7241176%" y2="91.0769962%" id="linearGradient-4">
+            <stop stop-color="#878683" offset="0%"></stop>
+            <stop stop-color="#82817D" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="12.4536204%" y1="30.7131752%" x2="120.971429%" y2="62.620291%" id="linearGradient-5">
+            <stop stop-color="#878683" offset="0%"></stop>
+            <stop stop-color="#B4B3AD" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50.000275%" y1="100%" x2="50.000275%" y2="0%" id="linearGradient-6">
+            <stop stop-color="#868581" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="32.0579168%" y1="45.9545227%" x2="112.523814%" y2="64.096203%" id="linearGradient-7">
+            <stop stop-color="#878683" offset="0%"></stop>
+            <stop stop-color="#82817D" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="2.04698512%" y1="43.1963158%" x2="92.1891151%" y2="78.1752632%" id="linearGradient-8">
+            <stop stop-color="#878683" offset="0%"></stop>
+            <stop stop-color="#B4B3AD" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0.00197823937%" y1="50.0028839%" x2="100.000495%" y2="50.0028839%" id="linearGradient-9">
+            <stop stop-color="#868581" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="1.85415796%" y1="78.1761913%" x2="105.99206%" y2="23.6704525%" id="linearGradient-10">
+            <stop stop-color="#D1CFC9" offset="0%"></stop>
+            <stop stop-color="#E3E2DF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="15.58%" y1="83.7436477%" x2="84.52%" y2="16.3184641%" id="linearGradient-11">
+            <stop stop-color="#8D8C88" offset="0%"></stop>
+            <stop stop-color="#868581" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-52.165%" y1="84.0345444%" x2="150.061%" y2="16.664038%" id="linearGradient-12">
+            <stop stop-color="#8D8C88" offset="0%"></stop>
+            <stop stop-color="#868581" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="90.9536478%" y1="31.1606396%" x2="-13.5245634%" y2="65.9769874%" id="linearGradient-13">
+            <stop stop-color="#B6B5B0" offset="15.27%"></stop>
+            <stop stop-color="#D5D3CE" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="18.1041904%" y1="8.55427408%" x2="81.8913888%" y2="115.936228%" id="linearGradient-14">
+            <stop stop-color="#878683" offset="0%"></stop>
+            <stop stop-color="#B4B3AD" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="4.64751646%" y1="28.8034188%" x2="80.4895272%" y2="102.377074%" id="linearGradient-15">
+            <stop stop-color="#878683" offset="0%"></stop>
+            <stop stop-color="#B4B3AD" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="49.9993882%" x2="100%" y2="49.9993882%" id="linearGradient-16">
+            <stop stop-color="#878683" offset="0%"></stop>
+            <stop stop-color="#B4B3AD" offset="48.77%"></stop>
+            <stop stop-color="#B3B2AC" offset="68.97%"></stop>
+        </linearGradient>
+        <linearGradient x1="16.2806322%" y1="18.993937%" x2="71.1728198%" y2="51.9948031%" id="linearGradient-17">
+            <stop stop-color="#878683" offset="0%"></stop>
+            <stop stop-color="#B4B3AD" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50.0010476%" y1="100.002472%" x2="50.0010476%" y2="0%" id="linearGradient-18">
+            <stop stop-color="#868581" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="39.8606645%" y1="49.1247444%" x2="119.610932%" y2="78.4083163%" id="linearGradient-19">
+            <stop stop-color="#878683" offset="0%"></stop>
+            <stop stop-color="#B4B3AD" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="23.3720487%" y1="124.042062%" x2="72.6770754%" y2="-28.0997286%" id="linearGradient-20">
+            <stop stop-color="#8D8C88" offset="0%"></stop>
+            <stop stop-color="#868581" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="6.74035208%" y1="-32.8060567%" x2="83.0881931%" y2="91.0180412%" id="linearGradient-21">
+            <stop stop-color="#878683" offset="0%"></stop>
+            <stop stop-color="#82817D" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="66.4148202%" y1="99.0132971%" x2="10.5785204%" y2="26.1867913%" id="linearGradient-22">
+            <stop stop-color="#868581" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="41.0939623%" y1="46.1077143%" x2="107.10566%" y2="74.9637143%" id="linearGradient-23">
+            <stop stop-color="#878683" offset="0%"></stop>
+            <stop stop-color="#B4B3AD" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-5.4071991%" y1="41.7452816%" x2="97.456318%" y2="90.9940611%" id="linearGradient-24">
+            <stop stop-color="#878683" offset="0%"></stop>
+            <stop stop-color="#B4B3AD" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="123.407974%" y1="36.6139113%" x2="29.0174768%" y2="56.1730046%" id="linearGradient-25">
+            <stop stop-color="#B6B5B0" offset="15.27%"></stop>
+            <stop stop-color="#D5D3CE" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="12.0982746%" y1="21.653751%" x2="69.4939985%" y2="58.069662%" id="linearGradient-26">
+            <stop stop-color="#878683" offset="0%"></stop>
+            <stop stop-color="#82817D" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0.000749625188%" y1="49.9997678%" x2="99.9997501%" y2="49.9997678%" id="linearGradient-27">
+            <stop stop-color="#868581" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="106.000557%" y1="24.4919509%" x2="9.90560451%" y2="76.4672084%" id="linearGradient-28">
+            <stop stop-color="#B6B5B0" offset="15.27%"></stop>
+            <stop stop-color="#D5D3CE" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="13.5884211%" y1="47.5301954%" x2="84.1131579%" y2="104.161482%" id="linearGradient-29">
+            <stop stop-color="#878683" offset="0%"></stop>
+            <stop stop-color="#82817D" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="4.39767283%" y1="11.0288923%" x2="94.7768652%" y2="80.0769858%" id="linearGradient-30">
+            <stop stop-color="#878683" offset="0%"></stop>
+            <stop stop-color="#B4B3AD" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-5.31318827%" y1="24.1071429%" x2="60.7893578%" y2="55.05%" id="linearGradient-31">
+            <stop stop-color="#878683" offset="0%"></stop>
+            <stop stop-color="#B4B3AD" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="72.7126359%" y1="49.268046%" x2="-14.122962%" y2="70.6583908%" id="linearGradient-32">
+            <stop stop-color="#B6B5B0" offset="15.27%"></stop>
+            <stop stop-color="#D5D3CE" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-2" transform="translate(-201.000000, -56.000000)">
+            <g id="horse" transform="translate(201.000000, 20.000000)">
+                <g id="head">
+                    <g id="main-head" transform="translate(0.000000, 36.000000)">
+                        <polygon id="background" fill="url(#linearGradient-1)" points="170.924316 179.556846 164.513184 182.159754 129.067871 212.013428 122.761597 207.741943 119.738647 209.626 103.092163 214.093434 73.6876221 225.958691 72.6539307 238.582796 63.4332275 249.985537 38.0787354 249.985537 28.4278564 245.981063 22.4001465 247.65193 12.7507324 245.310313 5.82800293 239.335 2.50708008 227.335 2.50708008 221.30349 0.761474609 205.26557 6.25512695 184.146 8.01464844 180.798233 33.6555176 139.309082 42.1306152 125.766 66.0406494 94.0302852 66.0406494 70.9168701 72.8659668 62.316 78.8630371 43.7150671 100.699707 22.766 109.071 15.3393555 112.413574 10.7672539 129.067871 5.00181208 150 0.517370144 159.824707 10.877 178.34375 20.2288255 178.737 62.7152964 182.457 73.335 191.042969 113"></polygon>
+                        <polygon id="Path" fill="#EBEAE7" points="118.571 143.066074 149.712891 111.345 177.049316 116.956 133.229492 161.255 100.533203 207.976 77.53125 187 97.071 165.891577 108.131 153.207405"></polygon>
+                        <polygon id="Path" fill="url(#linearGradient-2)" points="182.291504 70.3964844 191.071 113.56311 174.291 117.596616 169.285645 73.885"></polygon>
+                        <polygon id="Path" fill="url(#linearGradient-3)" points="191.071 113.56311 185.621 131.482131 174.291 117.596616"></polygon>
+                        <polygon id="Path" fill="#7D7C78" points="185.621 131.482131 185.602 131.522176 178.741 150.264116 177.071 144.197338 170.821 131.393031 170.821 131.393031 165.4 120.269603"></polygon>
+                        <polygon id="Path" fill="#020202" points="177.071 144.197338 185.602 131.522176 170.991 179.556846"></polygon>
+                        <polygon id="Path" fill="#FFFFFF" points="178.741 63.066689 173.471 63.066689 169.852 60.5939262"></polygon>
+                        <polygon id="Path" fill="#83827F" points="170.891 131.532187 177.071 144.197338 145.121 143.826924"></polygon>
+                        <polygon id="Path" fill="#000000" points="177.071 144.197338 170.991 179.556846 164.651 182.159754 164.641 182.159754 153.071 186.915067"></polygon>
+                        <polygon id="Path" fill="#000000" points="177.071 144.197338 153.071 186.915067 139.495 185.289251"></polygon>
+                        <polygon id="Path" fill="#81807C" points="132.812 161.305453 126.071 164.890459 139.495 185.289251 177.071 144.197338"></polygon>
+                        <polygon id="Path" fill="url(#linearGradient-4)" points="177.071 144.197338 126.071 164.890459 145.121 143.826924"></polygon>
+                        <polygon id="Path" fill="#7D7C78" points="170.891 131.532187 170.891 131.532187 145.121 143.826924 158.631 124.635481"></polygon>
+                        <polygon id="Path" fill="#D8D7D2" points="165.401 120.269603 170.891 131.532187 158.631 124.635481 162.571 120.841242"></polygon>
+                        <polygon id="Path" fill="url(#linearGradient-5)" points="160.151 61.5249664 155.611 58.5216107 140.071 32.2422483 143.536621 12.8896253 159.871 10.7672539 168.65625 36.1461102"></polygon>
+                        <polygon id="Path" fill="#D6D4CE" points="161.484863 11.736 166.525391 30.066 153.071 41.0821253 154.661 32.8429195 159.701 10.7181991"></polygon>
+                        <polygon id="Path" fill="#000000" points="164.641 182.159754 129.071 212.212332 122.711 207.817422 128.271 204.41462"></polygon>
+                        <polygon id="Path" fill="url(#linearGradient-6)" points="164.641 182.159754 128.271 204.41462 141.541 192.610431"></polygon>
+                        <polygon id="Path" fill="#0D0D0D" points="164.641 182.159754 141.541 192.610431 153.071 186.915067"></polygon>
+                        <polygon id="Path" fill="url(#linearGradient-7)" points="178.327637 97.435 169.691406 73.886 175.898926 45.1132812 166.617187 30.066 155.611 58.5216107 136.752 104.952489 145.752 101.819989 158.056 97.768462"></polygon>
+                        <polygon id="Path" fill="#D1CFCA" points="145.752 101.819989 147.301 112.561991 174.630859 118.646 171.916016 97.435 158.108398 97.425"></polygon>
+                        <polygon id="Path" fill="url(#linearGradient-8)" points="140.071 32.2422483 155.611 58.5216107 130.071 70.2847539"></polygon>
+                        <polygon id="Path" fill="#7D7C78" points="155.611 58.5216107 136.751 104.952489 130.071 70.2847539"></polygon>
+                        <polygon id="Path" fill="#000000" points="153.071 186.915067 141.541 192.610431 117.611 204.41462 102.991699 213.870117 107.752 181.489004"></polygon>
+                        <polygon id="Path" fill="url(#linearGradient-9)" points="174.291 117.596616 185.621 131.482131 165.401 120.269603"></polygon>
+                        <polyline id="Path" fill="#BBBAB5" points="152.313 110.648853 145.752 101.819989 136.752 104.952489 151.571 111.23651"></polyline>
+                        <polyline id="Path" fill="#B3B2AC" points="140.071 122.333909 136.752 104.952489 151.571 111.23651"></polyline>
+                        <polygon id="Path" fill="url(#linearGradient-10)" points="141.541 192.610431 128.271 204.41462 122.711 207.817422 120.332 209.270045 120.321 209.270045 102.976074 214.245605 114.679688 205.996"></polygon>
+                        <polygon id="Path" fill="#7F7E7B" points="143.564941 12.8896253 140.071 32.2422483 124.831 16.4936521 127.094 13.7956376 131.501 10.7672539"></polygon>
+                        <polygon id="Path" fill="#E3E2DF" points="124.880615 16.4936521 140.076172 32.2422483 112 30.635453"></polygon>
+                        <polygon id="Path-Copy" fill="#E3E2DF" points="152.288574 2.71826063 159.658447 10.7672539 143.345947 12.8896253 131.335937 10.7672539 128.947754 4.96326902"></polygon>
+                        <polygon id="Path" fill="#B6B5B0" points="140.071 32.2422483 130.071 70.2847539 127.631 55.838613 124.571 37.7283781"></polygon>
+                        <polygon id="Path" fill="#83827F" points="126.071 164.890459 139.495 185.289251 127.99 183.911711"></polygon>
+                        <polygon id="Path" fill="#BAB9B4" points="140.071 32.2422483 124.571 37.7283781 99.071 46.7584676 99.771 45.5671365 113.131 30.069821"></polygon>
+                        <path d="M140.071,122.333909 L139.762,120.560928" id="Path" fill="url(#linearGradient-11)"></path>
+                        <polygon id="Path" fill="#B1B0AA" points="87.092 81.4272036 86.602 82.4483445 91.981 92.8900112 92.291 93.47967 128.588379 94.1454139 127.808594 69.1365139"></polygon>
+                        <polyline id="Path" fill="url(#linearGradient-12)" points="140.071 122.333909 136.752 104.952489 130.071 70.2847539 138.172 121.721225"></polyline>
+                        <polygon id="Path" fill="#B5B4AF" points="138.381 123.03269 136.582 123.944709 136.312 124.224021 118.571 143.066074 140.071 122.333909"></polygon>
+                        <polyline id="Path" fill="url(#linearGradient-13)" points="87.682 138.841353 78.801 153.207405 136.582 123.944709 136.582 123.944709 138.381 123.03269 140.071 122.333909 140.071 122.333909 138.172 121.721225 138.172 121.721225 105.352 113.913501 121.041 86.2215604 120.981 86.2125503 111.161 100.89896"></polyline>
+                        <polygon id="Path" fill="#D3D1CC" points="130.071 70.2847539 138.172 121.721225 105.352 113.913501 125.154 118.625766"></polygon>
+                        <path d="M78.801,153.207405 L136.311,124.224021" id="Path" fill="#52514F"></path>
+                        <polygon id="Path" fill="#B5B4AF" points="81.142 153.207405 95.621 151.205168 108.131 153.207405 118.571 143.065073 136.582 123.944709 78.801 153.207405"></polygon>
+                        <polygon id="Path" fill="#0D0D0D" points="128.961 5.00181208 131.502 10.7672539 131.502 10.7672539"></polygon>
+                        <polygon id="Path" fill="#81807C" points="127.631 55.838613 130.071 70.2847539 103.082 63.7965045"></polygon>
+                        <polyline id="Path" fill="#8F8E8B" points="120.981 86.2125503 130.071 70.2847539 125.154 118.625766 105.352 113.913501"></polyline>
+                        <polygon id="Path" fill="#8E8D8A" points="130.071 70.2847539 115.321 78.9944855 103.502 77.1714485"></polygon>
+                        <polygon id="Path" fill="url(#linearGradient-14)" points="130.071 70.2847539 103.502 77.1714485 87.092 81.4272036 113.352 66.6707159"></polygon>
+                        <polygon id="Path" fill="#D7D5D0" points="130.071 70.2847539 113.352 66.6707159 94.221 66.6707159 103.081 63.7965045"></polygon>
+                        <polygon id="Path" fill="#B5B4AF" points="126.071 164.890459 127.99 183.911711 107.752 181.489004"></polygon>
+                        <polygon id="Path" fill="#B5B4AF" points="124.571 37.7283781 127.631 55.838613 99.071 46.7584676"></polygon>
+                        <polygon id="Path" fill="url(#linearGradient-15)" points="127.631 55.838613 103.082 63.7965045 94.221 66.6707159 94.211 66.6707159 99.071 46.7584676"></polygon>
+                        <polygon id="Path" fill="#D6D4CE" points="124.831 16.4936521 113.131 30.069821 109.071 29.7394519"></polygon>
+                        <polygon id="Path" fill="#000201" points="124.118 15.816896 124.137 15.8369183 96.801 34.6239094 88.381 48.4603691 86.491 50.1622707 78.141 68.0322371 85.932 59.942198 87.071 55.838613 97.432 47.9998546 99.071 46.7584676 109.071 29.7394519 124.831 16.4936521 127.209 13.6845134"></polygon>
+                        <polygon id="Path" fill="url(#linearGradient-16)" points="131.502 10.7672539 128.961 5.00181208 122.711 7.1432047 112.281 10.7181991 109.441 14.5614933 109.441 14.5614933 109.432 14.5614933 92.291 37.7283781 96.691 34.705 96.932 34.4136745 96.801 34.6239094 124.172 15.8128915 124.161 15.8038814 127.262 13.6815101"></polygon>
+                        <polyline id="Path" fill="#8F8E8B" points="120.981 86.2125503 130.071 70.2847539 120.592 85.6218904"></polyline>
+                        <path d="M120.981,86.2125503 L120.98,86.2125503" id="Path" fill="#8F8E8B"></path>
+                        <path d="M120.981,86.2125503 L110.932,101.238339" id="Path" fill="#8F8E8B"></path>
+                        <polygon id="Path" fill="#F2F0E6" points="113.131 30.069821 99.771 45.5671365 109.071 29.7394519"></polygon>
+                        <polyline id="Path" fill="url(#linearGradient-17)" points="120.981 86.2125503 105.352 93.47967 110.932 101.238339"></polyline>
+                        <polyline id="Path" fill="#D2D0CB" points="87.682 138.841353 110.932 101.238339 110.951 101.219318 111.161 100.89896"></polyline>
+                        <polyline id="Path" fill="#B6B5B0" points="87.682 138.841353 110.932 101.238339 86.229 95.3507606"></polyline>
+                        <polygon id="Path" fill="#DEDDD9" points="95.621 151.205168 95.821 153.207405 98.6533203 190.855 108.131 153.207405"></polygon>
+                        <polygon id="Path" fill="url(#linearGradient-18)" points="106.035156 194.376 103.036 214.093434 74.4 196.594883 87.741 194.182187"></polygon>
+                        <polygon id="Path" fill="#E3E2DF" points="99.071 46.7584676 94.211 66.6707159 94.191 66.6807271 83.071 70.2847539"></polygon>
+                        <polygon id="Path" fill="#F2F0E6" points="99.071 46.7584676 83.071 70.2847539 85.932 59.942198 97.432 47.9998546"></polygon>
+                        <polyline id="Path" fill="#D4D2CD" points="110.932 101.238339 105.352 93.47967 105.352 93.47967 92.291 93.47967 92.291 93.47967 86.229 95.3507606"></polyline>
+                        <path d="" id="Path" fill="#D4D2CD"></path>
+                        <polygon id="Path" fill="#ECEBE9" points="97.432 47.9998546 85.932 59.942198 87.071 55.838613"></polygon>
+                        <polygon id="Path" fill="#000201" points="96.801 34.6239094 88.381 48.459368 86.491 50.1622707 89.901 42.8541051 96.691 34.705"></polygon>
+                        <polygon id="Path" fill="#000201" points="96.691 34.705 89.901 42.8541051 92.291 37.7283781"></polygon>
+                        <polygon id="Path" fill="url(#linearGradient-19)" points="97.3432617 166.666 95.621 151.205168 87.2612305 166.286 82.0297852 185.666 98.6865234 190.855"></polygon>
+                        <polygon id="Path" fill="#DCDBD6" points="81.141 153.207405 87.741 165.891577 94.551 153.207405 95.621 151.205168"></polygon>
+                        <polygon id="Path" fill="#181818" points="94.211 66.6707159 87.321 81.0367673 87.262 81.0657998"></polygon>
+                        <polygon id="Path" fill="#E3E2DF" points="94.191 66.6807271 68.071 91.3082438 83.321 71.4150168"></polygon>
+                        <polygon id="Path" fill="#DBDAD5" points="94.191 66.6807271 83.321 71.4150168 68.071 91.3082438 66.012 94.0302852 78.142 68.0322371 85.932 59.942198 83.071 70.2847539"></polygon>
+                        <polygon id="Path" fill="#0D0D0D" points="93.771 91.4974553 92.291 93.47967 93.521 91.6876678"></polygon>
+                        <path d="M86.932,186.534642 L86.951,186.534642" id="Path" fill="#030303"></path>
+                        <polygon id="Path" fill="#000201" points="92.291 37.7283781 88.941 44.0053915 75.842 59.722953"></polygon>
+                        <polygon id="Path" fill="#B3B2AC" points="86.602 82.4483445 79.341 97.4751342 92.291 93.47967"></polygon>
+                        <polyline id="Path" fill="#898884" points="72.812 62.3358725 75.812 59.7629978 75.842 59.722953 92.275 37.7473993 92.291 37.7283781 92.369 37.6232606 92.371 37.6212584 92.37 37.6212584 109.432 14.5614933 106.131 17.6949944 102.451 21.1989094 78.801 43.7150671 72.811 62.3358725"></polyline>
+                        <polygon id="Path" fill="#83827F" points="84.881 51.6138926 84.881 51.6138926 86.491 50.1622707 86.491 50.1622707 92.291 37.7283781"></polygon>
+                        <polygon id="Path" fill="#83827F" points="88.941 44.0053915 84.881 51.6138926 75.812 59.7629978 75.842 59.722953"></polygon>
+                        <polygon id="Path" fill="#E2E1DD" points="81.141 153.207405 87.741 165.891577 67.1645508 166.286 68.071 145.869206 78.801 153.207405"></polygon>
+                        <polygon id="Path" fill="#B0AFA9" points="87.731 194.182187 74.401 196.594883 70.951 205.93632 38.071 237.640744 42.972 231.044374 42.981 231.034362 68.821 201.600475 58.961 209.940794 68.821 201.600475 68.231 197.166521"></polygon>
+                        <polygon id="Path" fill="#D3D1CC" points="87.262 126.347394 87.682 138.841353 78.801 153.207405"></polygon>
+                        <polyline id="Path" fill="url(#linearGradient-20)" points="87.092 81.4272036 113.352 66.6707159 94.221 66.6707159 94.221 66.6707159"></polyline>
+                        <polygon id="Path" fill="#181818" points="87.321 81.0367673 87.131 81.4171924 87.092 81.4272036 87.262 81.0657998"></polygon>
+                        <polygon id="Path" fill="#D7D5D0" points="86.229 95.3507606 87.262 126.347394 77.661 118.757914 85.491 96.3448714"></polygon>
+                        <polygon id="Path" fill="#BFBEB9" points="87.262 126.347394 78.801 153.207405 68.071 145.869206 68.071 145.869206"></polygon>
+                        <polygon id="Path" fill="#DDDCD8" points="87.262 126.347394 68.071 145.869206 77.661 118.757914"></polygon>
+                        <polygon id="Path" fill="#D5D3CE" points="86.491 50.1622707 78.141 68.0322371 78.141 68.0322371 84.881 51.6138926"></polygon>
+                        <polyline id="Path" fill="#EAE9E7" points="79.342 97.4751342 68.071 120.841242 86.229 95.3507606"></polyline>
+                        <polygon id="Path" fill="#D7D6D1" points="85.463 96.4269631 68.071 120.841242 68.071 120.841242 68.071 145.869206 68.521 144.577763 68.661 144.187327 68.695 144.091219 77.661 118.757914"></polygon>
+                        <polygon id="Path" fill="#B2B1AB" points="84.881 51.6138926 78.142 68.0322371 78.142 68.0322371 66.012 94.0312864 66.012 70.9144575 72.812 62.3358725 72.812 62.3358725 75.812 59.7629978"></polygon>
+                        <polygon id="Path" fill="#B0AFA9" points="87.793457 166.060766 82.363 185.03797 67.381 166.060766"></polygon>
+                        <polyline id="Path" fill="#BEBDB9" points="94.211 66.6707159 94.191 66.6807271 68.071 91.3082438 68.071 120.841242 79.342 97.4751342 86.602 82.4483445 86.602 82.4473434"></polyline>
+                        <polygon id="Path" fill="#BEBDB9" points="68.821 201.600475 42.98 231.034362 43.071 230.903216 44.221 229.381516 58.961 209.940794"></polygon>
+                        <polygon id="Path" fill="#010101" points="72.741 238.641862 63.361 249.985537 45.182 249.985537"></polygon>
+                        <polygon id="Path" fill="url(#linearGradient-21)" points="72.741 238.641862 45.182 249.985537 37.863 237.555649"></polygon>
+                        <polygon id="Path" fill="#BCBBB6" points="72.741 238.641862 38.071 237.640744 45.182 249.985537 38.071 249.985537 38.071 237.640744 61.071 237.640744"></polygon>
+                        <polygon id="Path" fill="#D8D6D1" points="72.741 238.641862 61.071 237.640744 63.471 229.923121"></polygon>
+                        <polyline id="Path" fill="#D3D1CC" points="61.741 228.291298 61.071 237.640744 38.071 237.640744 70.951 205.93632 70.951 205.93632"></polyline>
+                        <polygon id="Path" fill="url(#linearGradient-22)" points="103.036 214.093434 74.401 196.594883 74.401 196.594883 74.401 196.594883 74.4 196.594883 74.396 196.607897 70.951 205.93632 64.141 227.801751 64.141 227.801751 70.932 205.985375 61.741 228.291298 64.131 227.830783 64.131 227.830783 64.131 227.830783 64.131 227.830783 64.131 227.830783 73.741 225.958691"></polygon>
+                        <polygon id="Path" fill="#BFBEB9" points="68.071 120.841242 68.071 145.869206 41.571 126.347394"></polygon>
+                        <polygon id="Path" fill="url(#linearGradient-23)" points="68.071 91.3082438 68.071 120.841242 41.571 126.347394 66.012 94.0312864"></polygon>
+                        <polygon id="Path" fill="url(#linearGradient-24)" points="82.363 185.03797 67.381 166.060766 61.071 198.25774 61.071 198.25774 68.231 197.166521 68.231 197.166521 68.231 197.166521 87.731 194.182187 87.741 194.182187"></polygon>
+                        <polygon id="Path" fill="#DCDAD5" points="47.911 145.898238 67.381 166.060766 49.071 169.524636 15.461 175.902763 47.881 145.869206"></polygon>
+                        <polygon id="Path" fill="url(#linearGradient-25)" points="67.381 166.060766 61.071 198.25774 49.071 169.535649"></polygon>
+                        <polygon id="Path" fill="#B4B3AD" points="64.131 227.830783 61.741 228.291298 63.471 229.923121 72.741 238.641862 73.741 225.958691"></polygon>
+                        <polygon id="Path" fill="#101010" points="68.231 197.166521 41.571 208.018647 41.571 208.018647 61.071 198.25774"></polygon>
+                        <polygon id="Path" fill="#D1CFC9" points="63.471 229.923121 61.071 237.640744 61.741 228.291298"></polygon>
+                        <polygon id="Path" fill="#D5D3CE" points="49.071 169.535649 61.071 198.25774 30.071 189.587053 49.062 169.535649"></polygon>
+                        <polygon id="Path" fill="#D3D1CB" points="61.071 198.25774 41.571 208.018647 30.071 211.131124 30.071 203.602713 30.071 189.587053"></polygon>
+                        <polygon id="Path" fill="#61605E" points="58.961 209.940794 44.221 229.381516 43.071 230.903216 49.071 222.8342"></polygon>
+                        <polygon id="Path" fill="#E7E6E2" points="49.062 169.535649 30.071 189.587053 15.461 175.902763"></polygon>
+                        <polygon id="Path" fill="url(#linearGradient-26)" points="68.231 197.166521 41.571 208.018647 45.791 221.30349 45.182 221.453658 45.182 221.453658 45.182 221.453658 45.182 221.453658 45.791 221.30349 45.791 221.30349 57.062 208.228881"></polygon>
+                        <polygon id="Path" fill="url(#linearGradient-27)" points="47.881 145.869206 15.461 175.902763 15.451 175.911773 7.861 180.798233 41.8808594 125.766 47.861 145.859195"></polygon>
+                        <polygon id="Path" fill="url(#linearGradient-28)" points="45.791 221.30349 45.412 221.824072 33.842 237.640744 33.121 238.741974 31.742 240.6441 17.082 228.271275 45.182 221.453658"></polygon>
+                        <polygon id="Path" fill="#020202" points="45.411 221.824072 33.121 238.741974 33.842 237.640744"></polygon>
+                        <polygon id="Path" fill="#D2D0CA" points="41.571 208.018647 45.791 221.30349 17.081 228.271275"></polygon>
+                        <polygon id="Path" fill="#B9B8B2" points="41.571 208.018647 30.071 213.613898 30.071 211.132125"></polygon>
+                        <polygon id="Path" fill="#B3B2AC" points="31.741 240.6441 28.401 245.981063 22.401 247.65193 12.741 245.310313"></polygon>
+                        <polygon id="Path" fill="url(#linearGradient-29)" points="31.741 240.6441 12.741 245.310313 19.071 231.634032"></polygon>
+                        <polygon id="Path" fill="#81807C" points="31.741 240.6441 19.071 231.634032 5.741 237.640744 17.071 228.271275 17.081 228.271275"></polygon>
+                        <polygon id="Path" fill="#EAE9E6" points="30.071 211.131124 30.071 213.613898 15.461 216.277875 17.041 214.656063"></polygon>
+                        <polygon id="Path" fill="#E8E7E5" points="30.071 189.587053 30.071 203.602713 26.812 191.92066 24.071 204.603831 26.812 191.92066 19.071 189.587053 17.071 194.253266 15.461 194.253266 15.461 175.902763"></polygon>
+                        <polygon id="Path" fill="#B2B1AB" points="26.812 191.92066 30.071 203.602713 24.071 204.603831"></polygon>
+                        <polygon id="Path" fill="url(#linearGradient-30)" points="24.071 204.603831 15.461 205.93632 24.071 204.603831 17.041 214.656063 17.041 214.656063 30.071 211.131124 30.071 203.602713"></polygon>
+                        <polygon id="Path" fill="#070707" points="26.812 191.92066 24.071 204.603831 15.461 205.93632"></polygon>
+                        <polygon id="Path" fill="url(#linearGradient-31)" points="26.812 191.92066 15.461 205.93632 15.461 194.253266 15.461 194.253266"></polygon>
+                        <polygon id="Path" fill="#050505" points="26.812 191.92066 15.461 194.253266 19.071 189.587053"></polygon>
+                        <polygon id="Path" fill="#7A7975" points="19.071 231.634032 12.741 245.310313 5.741 237.640744"></polygon>
+                        <polygon id="Path" fill="#D3D1CC" points="41.571 208.018647 30.071 213.613898 15.461 216.277875 17.041 214.656063 15.461 215.075531 12.401 215.907461 5.741 237.640744 17.071 228.271275 17.081 228.271275"></polygon>
+                        <polygon id="Path" fill="#030303" points="15.461 205.93632 12.401 215.907461 17.041 214.656063 17.041 214.656063 24.071 204.603831"></polygon>
+                        <polygon id="Path" fill="#EAE9E6" points="15.461 194.253266 15.461 205.93632 6.562 184.15198 15.451 175.911773 15.461 175.902763"></polygon>
+                        <polygon id="Path" fill="url(#linearGradient-32)" points="6.551 184.161991 15.461 205.93632 0.741 205.26557 6.141 184.541415"></polygon>
+                        <polygon id="Path" fill="#E2E0DC" points="15.461 205.93632 12.401 215.907461 5.741 237.640744 0.741 205.26557"></polygon>
+                        <polygon id="Path" fill="#000A08" points="15.451 175.911773 6.561 184.15198 6.371 183.690464 7.861 180.798233"></polygon>
+                        <polygon id="Path" fill="#E3E2DE" points="5.741 237.640744 12.741 245.310313 5.741 239.303602 2.401 227.629558 2.401 221.622847 0.741 205.26557"></polygon>
+                        <polygon id="head-tint" fill="#64708D" style="mix-blend-mode: overlay;" points="191.071 113.833412 170.924316 179.556846 164.513184 182.159754 129.067871 212.013428 122.761597 207.741943 119.738647 209.626 103.092163 214.093434 73.6876221 225.958691 72.6539307 238.582796 63.4332275 249.985537 38.0787354 249.985537 28.4278564 245.981063 22.4001465 247.65193 12.7507324 245.310313 5.82800293 239.335 2.50708008 227.335 2.50708008 221.30349 0.761474609 205.26557 6.25512695 184.146 8.01464844 180.798233 33.6555176 139.309082 42.1306152 125.766 66.0406494 94.0302852 66.0406494 70.9168701 72.8659668 62.316 78.8630371 43.7150671 100.699707 22.766 109.310384 14.6616051 112.249837 10.7181991 119.567 8.21972656 129.067871 5.00181208 150.39 0.73 159.824707 10.877 174.287 17.646 177.067 58.4915772 182.457 71.355"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

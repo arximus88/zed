@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="24px" viewBox="0 0 38 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>eye</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50.0020339%" y1="99.9986945%" x2="50.0020339%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#868581" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-2" transform="translate(-293.000000, -126.000000)">
+            <g id="horse" transform="translate(201.000000, 20.000000)">
+                <g id="head">
+                    <g id="eye" transform="translate(92.000000, 106.126398)">
+                        <polygon id="Path" fill="#050505" points="6.631 23.3532718 13.352 23.3532718 28.98 16.0861521 12.041 11.5300615 11.502 7.04505034 0.291 23.3532718"></polygon>
+                        <polygon id="Path" fill="url(#linearGradient-1)" points="38.071 0.158355705 28.98 16.0861521 23.321 8.86808725"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

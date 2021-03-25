@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="64px" viewBox="0 0 26 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>right-ear</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-29.9356474%" y1="31.2167461%" x2="104.473869%" y2="77.9353824%" id="linearGradient-1">
+            <stop stop-color="#878683" offset="0%"></stop>
+            <stop stop-color="#B4B3AD" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-2" transform="translate(-298.000000, -28.000000)">
+            <g id="horse" transform="translate(201.000000, 20.000000)">
+                <g id="head">
+                    <g id="right-ear" transform="translate(97.000000, 8.007830)">
+                        <polygon id="Path" fill="url(#linearGradient-1)" points="0.071 0.083570063 25.711 41.698102 19.1064453 52.7467312 16.131 55.3402508 12.891 56.5047041 7.041 28.5095402"></polygon>
+                        <polygon id="Path" fill="#D4D2CD" points="14.161 55.6934567 11.7441406 57.8034508 8.352 53.1974301 7.041 28.5083572"></polygon>
+                        <polygon id="Path" fill="#191919" points="12.071 58.3077169 6.036 63.3556869 0.071 31.4313939 0.071 29.952723 8.352 53.1974301"></polygon>
+                        <polygon id="Path" fill="#898884" points="7.041 28.5095402 8.352 53.1974301 0.071 29.952723"></polygon>
+                        <polygon id="Path" fill="#7F7E7B" points="0.071 0.083570063 7.041 28.5095402 6.502 28.6976271 0.071 29.952723"></polygon>
+                        <polygon id="right-ear-tint" fill="#64708D" style="mix-blend-mode: overlay;" points="3.65234375 50.75817 0.067 31.6249825 0.067 29.99217 0.067 0.083570063 4.62091064 7.40155337 22.6359863 36.6748688 11.131 43.7670724"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

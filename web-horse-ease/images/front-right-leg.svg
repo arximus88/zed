@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="476px" viewBox="0 0 120 476" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>front-right-leg</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0.00109090909%" y1="50%" x2="100.001091%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#D1CFC9" offset="16.75%"></stop>
+            <stop stop-color="#DEDCD8" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0.00153374233%" y1="50%" x2="99.9994888%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#B4B3AD" offset="0%"></stop>
+            <stop stop-color="#878683" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-34.1295%" y1="57.4175563%" x2="168.703%" y2="44.9069649%" id="linearGradient-3">
+            <stop stop-color="#D1CFC9" offset="16.75%"></stop>
+            <stop stop-color="#DEDCD8" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0.00211193242%" y1="50%" x2="99.999472%" y2="50%" id="linearGradient-4">
+            <stop stop-color="#E1DFDB" offset="0%"></stop>
+            <stop stop-color="#E3E2DF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50.0015789%" y1="100%" x2="50.0015789%" y2="0%" id="linearGradient-5">
+            <stop stop-color="#B4B3AD" offset="0%"></stop>
+            <stop stop-color="#878683" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0.00110619469%" y1="50.0000367%" x2="100.001659%" y2="50.0000367%" id="linearGradient-6">
+            <stop stop-color="#868581" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0.00194805195%" y1="50.0000482%" x2="100.001299%" y2="50.0000482%" id="linearGradient-7">
+            <stop stop-color="#868581" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-2" transform="translate(-637.000000, -428.000000)">
+            <g id="horse" transform="translate(201.000000, 20.000000)">
+                <g id="front-right-leg" transform="translate(436.000000, 407.455257)">
+                    <polygon id="Path" fill="url(#linearGradient-1)" points="116.571 394.606902 119.571 411.125358 112.071 416.130951 92.071 411.125358"></polygon>
+                    <polygon id="Path" fill="#0B0B0B" points="86.521 292.973345 116.571 394.606902 110.071 397.440067 86.521 292.973345"></polygon>
+                    <polygon id="Path" fill="#000000" points="116.571 394.606902 92.071 411.125358 110.071 397.440067"></polygon>
+                    <polygon id="Path" fill="#D1CFCA" points="115.321 465.185761 115.321 471.192472 112.071 471.192472 102.981 445.864172"></polygon>
+                    <polygon id="Path" fill="#BFBEB9" points="112.071 416.130951 102.981 445.854161 96.631 428.153384 96.631 428.144374 92.071 411.125358"></polygon>
+                    <polyline id="Path" fill="#8E8D8A" points="102.981 445.864172 112.071 471.192472 87.671 458.847679 96.631 428.153384"></polyline>
+                    <polygon id="Path" fill="#D3D1CB" points="112.071 471.192472 96.631 474.696387 87.671 458.847679"></polygon>
+                    <polygon id="Path" fill="#DEDCD8" points="86.521 292.973345 110.071 397.440067 92.071 411.125358"></polygon>
+                    <polyline id="Path" fill="#000000" points="96.631 428.153384 102.981 445.854161 102.981 445.864172"></polyline>
+                    <polygon id="Path" fill="url(#linearGradient-2)" points="87.671 458.847679 96.631 474.696387 77.071 475.697506"></polygon>
+                    <polygon id="Path" fill="#B5B4AE" points="96.631 428.153384 87.671 458.847679 68.731 458.847679"></polygon>
+                    <polygon id="Path" fill="#BFBEB9" points="96.631 428.144374 96.631 428.153384 68.731 458.847679 77.071 428.144374"></polygon>
+                    <polygon id="Path" fill="#878683" points="96.631 428.144374 77.071 428.144374 92.071 411.125358"></polygon>
+                    <polyline id="Path" fill="#878683" points="86.25 294.575134 86.25 294.584144 72.071 379.590123 68.731 107.115682 71.312 123.973518 92.071 259.67514 87.451 287.387103 86.521 292.973345"></polyline>
+                    <polygon id="Path" fill="url(#linearGradient-3)" points="87.892 299.040123 87.881 299.018098 86.552 293.10349 86.521 292.973345 86.251 294.575134 86.251 294.584144 72.071 379.590123 73.062 381.160878 92.071 411.125358"></polygon>
+                    <polygon id="Path" fill="#83827F" points="72.071 379.590123 92.071 411.125358 77.071 428.144374"></polygon>
+                    <polygon id="Path" fill="url(#linearGradient-4)" points="87.671 458.847679 77.071 475.697506 68.731 458.847679"></polygon>
+                    <polygon id="Path" fill="url(#linearGradient-5)" points="68.731 458.847679 77.071 475.697506 58.071 469.520604"></polygon>
+                    <polygon id="Path" fill="url(#linearGradient-6)" points="68.731 107.115682 72.071 379.590123 53.991 315.017975"></polygon>
+                    <path d="M77.4296875,17.7151059 L53.991,315.017975 L37.931,272.960984 L0.978515625,97.2146197 C3.65950521,47.9378535 5,23.2994704 5,23.2994704 L53.991,0.997114094 L77.4296875,17.7151059 Z" id="Path" fill="url(#linearGradient-7)"></path>
+                    <polygon id="Path-Copy-7" fill="#64708D" style="mix-blend-mode: overlay;" points="77.22 17.8915573 69.86 114.212612 71.92 124.924743 72.98 132.864743 81.48 188.334743 90.63 247.594743 91.73 254.704743 91.6 264.704743 87.32 289.764743 87.8 296.844743 111.12 374.454743 117.356516 395.067416 119.04 408.944743 119.595794 411.125358 112.038982 416.130951 103.011356 445.864172 115.354956 465.211041 115.354956 471.192472 112.038982 471.192472 96.6712295 474.696387 76.93 475.697506 58.1884573 469.520604 68.7645666 458.847679 76.93 428.144374 71.92 379.590123 53.8948764 315.017975 38.4 273.854743 0.971163156 97.8723378 5.27354569 23.1376254 52.61 0.997114094"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

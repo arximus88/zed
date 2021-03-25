@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="69px" viewBox="0 0 34 69" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>left-ear</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-32.4126119%" y1="28.4149248%" x2="115.328143%" y2="71.5840901%" id="linearGradient-1">
+            <stop stop-color="#878683" offset="0%"></stop>
+            <stop stop-color="#82817D" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-91.8936017%" y1="33.0098405%" x2="191.896477%" y2="66.9907559%" id="linearGradient-2">
+            <stop stop-color="#878683" offset="0%"></stop>
+            <stop stop-color="#82817D" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-2" transform="translate(-327.000000, -20.000000)">
+            <g id="horse" transform="translate(201.000000, 20.000000)">
+                <g id="head">
+                    <g id="left-ear" transform="translate(126.000000, 0.000000)">
+                        <polygon id="Path" fill="url(#linearGradient-1)" points="26.361 38.7182606 33.711 46.7672539 28.661 68.8429195 24.7141113 60.6292656 13.651 33.0228971 7.361 18.0251398"></polygon>
+                        <polygon id="Path" fill="#7F7E7B" points="24.8010254 60.6585953 17.512 65.7394519 13.661 33.072953"></polygon>
+                        <polygon id="Path" fill="#000A08" points="13.661 33.072953 17.512 65.7394519 14.071 68.2422483 13.98 67.8117673 0.071 0.666744966 7.361 18.0251398"></polygon>
+                        <polygon id="Path" fill="url(#linearGradient-2)" points="0.071 0.666744966 14.071 68.2422483 5.501 46.7672539 2.961 41.0018121 0.071 34.4544966"></polygon>
+                        <polygon id="left-ear-tint" fill="#64708D" style="mix-blend-mode: overlay;" points="26.361 38.7182606 33.711 46.7672539 28.661 68.8429195 24.7141113 60.6292656 14.0761719 68.2422483 5.502 46.7672539 0.067 34.7548322 0.067 0.666744966 7.361 18.0251398"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
