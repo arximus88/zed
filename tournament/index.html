@@ -1,0 +1,49 @@
+<!-- FILEPATH: /c:/Users/Borys/source/repos/zed/tournament/index.html -->
+
+<!DOCTYPE html>
+<meta
+  content="width=device-width, initial-scale= 1, user-scalable=no"
+  name="viewport" />
+<meta charset="utf-8" />
+<title>Tournament</title>
+<link rel="stylesheet" href="styles.css" />
+<html>
+  <head>
+    <title>My Tournament</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="headline">
+        <h1 class="heading">My Tournament</h1>
+        <button class="button" onclick="toggleContent()">
+            Show Content
+            <img src="chevron.svg" alt="Chevron Icon" id="icon" class="icon">
+        </button>
+      </div>
+      <div class="hidden-content" id="hidden-content">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod,
+          nisl vel bibendum bibendum, nunc elit bibendum sapien, vel bibendum
+          sapien sapien vel sapien. Sed euismod, nisl vel bibendum bibendum,
+          nunc elit bibendum sapien, vel bibendum sapien sapien vel sapien.
+        </p>
+      </div>
+    </div>
+    <script>
+      function toggleContent() {
+        var content = document.getElementById("hidden-content");
+        if (content.classList.contains("show")) {
+          content.classList.remove("show");
+        } else {
+          content.classList.add("show");
+        }
+        var content = document.getElementById("icon");
+        if (content.classList.contains("transform")) {
+          content.classList.remove("transform");
+        } else {
+          content.classList.add("transform");
+        }
+      }
+    </script>
+  </body>
+</html>

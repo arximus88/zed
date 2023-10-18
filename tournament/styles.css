@@ -1,0 +1,97 @@
+/* Style the container */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+/* Use Montserrat font for all headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background-color: #181c23;
+  color: #ecf1fb;
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+/* Style the heading */
+.headline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 40px; /* 125% */
+}
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Style the button */
+.button {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  height: 44px;
+  background-color: #ffffff00;
+  border: none;
+  color: #ecf1fb;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+  padding: 16px 24px;
+  text-align: center;
+  font-size: 16px;
+  margin-left: 20px;
+  cursor: pointer;
+  transition: background-color 0.1s ease-out;
+  border-radius: 8px;
+}
+.button:hover {
+  background-color: #ecf1fb20;
+}
+
+/* Style the hidden content */
+.hidden-content {
+  display: none;
+  margin-top: 24px;
+  max-width: 1024px;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 16px;
+  background: var(--background-surface-1, #22262d);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  color: #ecf1fbb2;
+  line-height: 20px;
+  padding: 16px;
+}
+.line {
+  max-width: 1024px;
+  height: 1px;
+  background: rgba(236, 241, 251, 0.12);
+}
+/* Show the hidden content when the button is clicked */
+.show {
+  display: flex;
+}
+.icon {
+  transition: transform 0.1s ease;
+}
+.transform {
+  transform: rotate(-180deg);
+}
