@@ -1,0 +1,22 @@
+.ser-avatar {
+  background-image: url("servatar.jpg");
+  height: 256px;
+  width: 256px;
+  background-color: blueviolet;
+  background-size: cover;
+  border-radius: 64px;
+  margin: 0 auto;
+  color: transparent;
+}
+
+.container {
+  margin: 64px auto;
+  max-width: 1024px;
+}
+
+.forma {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 32px;
+}

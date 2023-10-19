@@ -1,0 +1,133 @@
+<!-- FILEPATH: /c:/Users/Borys/source/repos/zed/cccc-tool/index.html -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>CCCC Tool</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="debts.js"></script>
+  </head>
+  <body>
+    <main class="container">
+      <h1>Сергій Credit Coin Checker</h1>
+      <div class="ser-avatar">Сергій</div>
+      <div>
+        <p>
+          Це Сергій, зазвичай він у себе тримає кошти на зберіганні, якщо ви
+          хочете повернути свій капітал але не знаєте скільки, то цей сервій
+          саме для вас!
+        </p>
+      </div>
+      <dialog id="dialog-box">
+        <p id="dialog-text"></p>
+        <button onclick="closeDialog()">Закрити</button>
+      </dialog>
+
+      <!-- Ваша форма -->
+      <form class="forma">
+        <h2><label for="input-text">Як вас звати?</label></h2>
+        <input type="text" id="input-text" name="input-text" required />
+        <button type="submit" onclick="validateInput(event)">Перевірити</button>
+        <a href="#" id="help-link">Потрібна допомога?</a>
+      </form>
+    </main>
+    <script>
+      // Функція для закриття діалогового вікна
+      function closeDialog() {
+        const dialog = document.getElementById("dialog-box");
+        dialog.close();
+      }
+      document
+        .getElementById("help-link")
+        .addEventListener("click", function (event) {
+          event.preventDefault();
+          showHelp();
+        });
+
+      function showHelp() {
+        const dialog = document.getElementById("dialog-box");
+        const dialogText = document.getElementById("dialog-text");
+
+        const namesList = Object.keys(debts).join(", ");
+
+        dialogText.textContent = `Поки що у базі даних є дані про цих осіб: ${namesList}. Якщо вас немає у цьому списку, зверніться до адміністратора.`;
+
+        dialog.showModal();
+      }
+
+      // Ваша функція validateInput
+      function validateInput(event) {
+        event.preventDefault();
+
+        const input = document.getElementById("input-text").value;
+        const dialog = document.getElementById("dialog-box");
+        const dialogText = document.getElementById("dialog-text");
+
+        while (dialogText.firstChild) {
+          dialogText.removeChild(dialogText.firstChild);
+        }
+
+        if (input === "") {
+          dialogText.appendChild(
+            document.createTextNode("Будь ласка, введіть ім'я.")
+          );
+          dialog.showModal();
+          return false;
+        }
+
+        dialogText.appendChild(document.createTextNode("Перевіряємо у базах:"));
+        dialog.showModal();
+
+        const databases = [
+          "База даних МВС",
+          "Спілка Кредиторів",
+          "Коллектори Приватбанку",
+          "Магазин Свіжий Хліб",
+          "Medics Офіс",
+        ];
+
+        let delay = 0;
+        databases.forEach((db, index) => {
+          const randomDelay = 500 + Math.floor(Math.random() * 500);
+          delay += randomDelay;
+
+          setTimeout(() => {
+            dialogText.appendChild(document.createElement("br"));
+            dialogText.appendChild(document.createTextNode(`${db} ...`));
+          }, delay);
+
+          delay += randomDelay;
+          setTimeout(() => {
+            dialogText.appendChild(document.createTextNode(" ✓"));
+            if (index === databases.length - 1) {
+              setTimeout(() => {
+                dialogText.appendChild(document.createElement("br"));
+                dialogText.appendChild(
+                  document.createTextNode("Перевірку завершено!")
+                );
+
+                setTimeout(() => {
+                  dialogText.appendChild(document.createElement("br"));
+
+                  const resultText = document.createElement("strong"); // Створюємо елемент strong
+
+                  if (input === "Сергій") {
+                    resultText.textContent =
+                      "Сергій, це ж ти! Що ти тут бляха-муха перевіряєш?";
+                  } else if (debts[input] != null) {
+                    resultText.textContent = `Сергій має повернути ${debts[input]} грн ${input}-у.`;
+                  } else {
+                    resultText.textContent =
+                      "Ця особа не знайдена в базі даних.";
+                  }
+
+                  dialogText.appendChild(resultText); // Додаємо елемент strong до dialogText
+                }, 500);
+              }, 500);
+            }
+          }, delay);
+        });
+      }
+    </script>
+  </body>
+</html>
