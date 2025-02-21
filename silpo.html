@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>3D Timer</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <style>
+        body { margin: 0; }
+        canvas { display: block; }
+        #timer {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            color: white;
+            font-size: 24px;
+            font-family: Arial;
+        }
+    </style>
+</head>
+<body>
+    <div id="timer">6:00</div>
+    <script>
+        // Створюємо сцену
+        const scene = new THREE.Scene();
+        const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+        const renderer = new THREE.WebGLRenderer();
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        document.body.appendChild(renderer.domElement);
+
+        // Додаємо освітлення
+        const light = new THREE.DirectionalLight(0xffffff, 1);
+        light.position.set(0, 0, 1);
+        scene.add(light);
+        
+        const ambientLight = new THREE.AmbientLight(0x404040);
+        scene.add(ambientLight);
+
+        // Створюємо текст
+        const loader = new THREE.FontLoader();
+        let textMesh;
+        
+        loader.load('https://threejs.org/examples/fonts/helvetiker_regular.typeface.json', function(font) {
+            const geometry = new THREE.TextGeometry('GO TO SILPO', {
+                font: font,
+                size: 1.5,
+                height: 0.1,
+            });
+            
+            const material = new THREE.MeshPhongMaterial({color: 0xff0000});
+            textMesh = new THREE.Mesh(geometry, material);
+            
+            // Центруємо текст
+            geometry.computeBoundingBox();
+            const centerOffset = 0.1 * (geometry.boundingBox.max.x - geometry.boundingBox.min.x);
+            textMesh.position.x = centerOffset;
+            textMesh.position.z = -1;
+            
+            scene.add(textMesh);
+        });
+
+        camera.position.z = 7;
+
+        // Таймер
+        let timeLeft = 300; // 5 хвилин у секундах
+        const timerDisplay = document.getElementById('timer');
+
+        function updateTimer() {
+            const minutes = Math.floor(timeLeft / 60);
+            const seconds = timeLeft % 60;
+            timerDisplay.textContent = `${minutes}:${seconds.toString().padStart(2, '0')}`;
+            
+            if (timeLeft > 0) {
+                timeLeft--;
+            }
+        }
+
+        setInterval(updateTimer, 1000);
+
+        // Анімація
+        function animate() {
+            requestAnimationFrame(animate);
+            
+            if (textMesh) {
+                textMesh.rotation.y += 0.01;
+            }
+            
+            renderer.render(scene, camera);
+        }
+        animate();
+
+        // Адаптивний розмір
+        window.addEventListener('resize', onWindowResize, false);
+
+        function onWindowResize() {
+            camera.aspect = window.innerWidth / window.innerHeight;
+            camera.updateProjectionMatrix();
+            renderer.setSize(window.innerWidth, window.innerHeight);
+        }
+    </script>
+</body>
+</html>
